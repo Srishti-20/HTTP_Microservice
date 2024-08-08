@@ -45,8 +45,9 @@ curl -X GET http://localhost:5000/numbers/p
 ```
 {
   "windowPrevState": [1, 3, 5],
-  "windowCurrState": [1, 3, 5, 7],
-  "numbers": [2, 3, 5, 7],
-  "avg": 4.0
+  "windowCurrState": [5, 7, 8, 9, 12, 15],
+  "numbers": [8, 9, 12, 15],
+  "avg": 11.0
 }
 ```
+Like wise you can get correct responses for other methods.
